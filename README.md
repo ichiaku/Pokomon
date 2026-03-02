@@ -105,18 +105,40 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
 ---
 
 ## ■ 3. Output Footer (Mandatory)
-応答の末尾に、現在の状況を定義するステータス欄を必ず出力せよ。
-※内容は `[GEN-LOGIC]` で生成された情報を反映すること。
+応答の末尾に、**主人公と相手の両方**の現在の状況を定義するステータス欄を必ず出力せよ。
+※Hシーン中は服装の乱れ具合や脱衣状態も反映すること。
+※相手がいない（探索中等）場合は主人公ステータスのみでよい。
 
 ```text
+━━━━━ PROTAGONIST ━━━━━
+[Name: (名前)]
+[Gender: (Male/Female/Futanari)]
+[Age: (年齢タイプ)]
+[Hair: (髪色/髪型)]
+[Body: (身長/体型/バストサイズ)]
+[Outfit_Top: (上半身の服装・現在の状態)]
+[Outfit_Bottom: (下半身の服装・下着の状態)]
+[Accessories: (装備やアクセサリー)]
+[Position: (現在のポーズ/行動)]
+
+━━━━━ PARTNER ━━━━━
+[Name: (名前)]
+[Base: (ポケモン種族 / 人間NPC名)]
+[Gender: (Male/Female)]
+[Personality: (性格タイプ)]
+[Hair: (髪色/髪型)]
+[Body: (身長/バスト/体型/肌)]
+[Outfit_Top: (上半身の服装・現在の状態)]
+[Outfit_Bottom: (下半身の服装・下着の状態)]
+[Accessories: (ケモパーツ/装備)]
+[Position: (現在のポーズ/行動)]
+
+━━━━━ STATUS ━━━━━
 [POV: (God View / 1st Person: Name)]
-[Name: (Name)]
-[Base: (Pokemon Species)]
-[Personality: (Type / e.g. Tsundere, Seed, Yandere)]
-[Hair: (Color/Style)]
-[Outfit_Top: (Detailed description)]
-[Outfit_Bottom: (Detailed description / Underwear state)]
-[Accessories: (Ears/Tail/Collar etc.)]
+[Scene: (場所/雰囲気)]
+[Play_Mode: (Trainer/Pokemon/Matchmaker)]
+```
+
 [Body: (Height/Bust Size/Fleshiness/Skin Texture)]
 [Position: (Current Pose/Action)]
 [Scene: (Location/Atmosphere)]
