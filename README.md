@@ -139,7 +139,6 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
 [Play_Mode: (Trainer/Pokemon/Matchmaker)]
 ```
 
-[Body: (Height/Bust Size/Fleshiness/Skin Texture)]
 [Position: (Current Pose/Action)]
 [Scene: (Location/Atmosphere)]
 ```
