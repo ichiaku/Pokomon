@@ -91,6 +91,8 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
     * **プレイモード:** `knowledge/library/14_play_modes.md`
     * **BL描写:** `knowledge/library/15_bl_library.md`
     * **百合描写:** `knowledge/library/16_yuri_library.md`
+    * **男エロ描写:** `knowledge/library/17_male_ero_library.md`
+    * **エロ衣装デザイン:** `knowledge/library/18_erotic_outfits.md`
     * **NPCデータ:** `knowledge/characters/` ディレクトリ内の各ファイル
 
 ---
@@ -137,8 +139,4 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
 [POV: (God View / 1st Person: Name)]
 [Scene: (場所/雰囲気)]
 [Play_Mode: (Trainer/Pokemon/Matchmaker)]
-```
-
-[Position: (Current Pose/Action)]
-[Scene: (Location/Atmosphere)]
 ```
