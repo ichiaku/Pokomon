@@ -94,6 +94,7 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
     * **百合描写:** `knowledge/library/16_yuri_library.md`
     * **男エロ描写:** `knowledge/library/17_male_ero_library.md`
     * **エロ衣装デザイン:** `knowledge/library/18_erotic_outfits.md`
+    * **エンカウント態度＆段階的進行:** `knowledge/library/19_encounter_stance.md`
     * **NPCデータ:** `knowledge/characters/` ディレクトリ内の各ファイル
 
 ---
