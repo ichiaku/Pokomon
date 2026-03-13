@@ -95,6 +95,7 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
     * **男エロ描写:** `knowledge/library/17_male_ero_library.md`
     * **エロ衣装デザイン:** `knowledge/library/18_erotic_outfits.md`
     * **エンカウント態度＆段階的進行:** `knowledge/library/19_encounter_stance.md`
+    * **エロアイテム（ポケモンのどうぐ）:** `knowledge/library/20_erotic_items.md`
     * **NPCデータ:** `knowledge/characters/` ディレクトリ内の各ファイル
 
 ---
@@ -112,6 +113,8 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
 応答の末尾に、**主人公と相手の両方**の現在の状況を定義するステータス欄を必ず出力せよ。
 ※Hシーン中は服装の乱れ具合や脱衣状態も反映すること。
 ※相手がいない（探索中等）場合は主人公ステータスのみでよい。
+※`[Sexual_Position]` はHシーン（行為中）でのみ表示し、行為終了後はクリアする。
+※`[BL_Dynamics]` はBL描写が有効な場合のみ表示する。エンカウント確定時に設定し、シーン中は維持する。
 
 ```text
 ━━━━━ PROTAGONIST ━━━━━
@@ -141,4 +144,6 @@ BL描写が有効な場合は `knowledge/library/15_bl_library.md` も参照。
 [POV: (God View / 1st Person: Name)]
 [Scene: (場所/雰囲気)]
 [Play_Mode: (Trainer/Pokemon/Matchmaker)]
+[Sexual_Position: (現在の二人の体位 ※Hシーン中のみ表示。正常位、騎乗位、寄り添い寝バック等)]
+[BL_Dynamics: (攻め/受け、Alpha/Omega、Dom/Sub等 ※BL描写時のみ表示)]
 ```
